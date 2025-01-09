@@ -1,0 +1,57 @@
+{
+  "files": {
+    "1e498a38-d64a-49eb-8313-0853bb44f6a6": {
+      "id": "1e498a38-d64a-49eb-8313-0853bb44f6a6",
+      "fileName": "file.txt",
+      "url": "http://localhost:8080/assets/1e498a38-d64a-49eb-8313-0853bb44f6a6.txt",
+      "offerID": "1"
+    },
+    "ac3a9384-8248-4775-a25d-2c1045093d59": {
+      "id": "ac3a9384-8248-4775-a25d-2c1045093d59",
+      "fileName": "file.txt",
+      "url": "http://localhost:8080/assets/ac3a9384-8248-4775-a25d-2c1045093d59.txt",
+      "offerID": "1"
+    },
+    "876ad063-5cb2-4aef-b830-0a049b2e6e8b": {
+      "id": "876ad063-5cb2-4aef-b830-0a049b2e6e8b",
+      "fileName": "file.txt",
+      "url": "http://localhost:8080/assets/876ad063-5cb2-4aef-b830-0a049b2e6e8b.txt",
+      "offerID": "1"
+    },
+    "77336501-46ab-4973-a079-685f51a4b8b9": {
+      "id": "77336501-46ab-4973-a079-685f51a4b8b9",
+      "fileName": "file.txt",
+      "url": "http://localhost:8080/assets/77336501-46ab-4973-a079-685f51a4b8b9.txt",
+      "offerID": "1"
+    },
+    "cbca523b-6a7d-4361-a5bd-01092ae07198": {
+      "id": "cbca523b-6a7d-4361-a5bd-01092ae07198",
+      "fileName": "file.txt",
+      "url": "http://localhost:8080/assets/cbca523b-6a7d-4361-a5bd-01092ae07198.txt",
+      "offerID": "1"
+    },
+    "9a18480c-10bd-4da2-8351-0c0938bf5453": {
+      "id": "9a18480c-10bd-4da2-8351-0c0938bf5453",
+      "fileName": "file.txt",
+      "url": "http://localhost:8080/assets/9a18480c-10bd-4da2-8351-0c0938bf5453.txt",
+      "offerID": "1"
+    },
+    "632dc630-0dc7-40fc-b317-b2affdaeb4df": {
+      "id": "632dc630-0dc7-40fc-b317-b2affdaeb4df",
+      "fileName": "file.txt",
+      "url": "http://localhost:8080/assets/632dc630-0dc7-40fc-b317-b2affdaeb4df.txt",
+      "offerID": "1"
+    }
+  },
+  "offers": {
+    "1": [
+      "1e498a38-d64a-49eb-8313-0853bb44f6a6",
+      "ac3a9384-8248-4775-a25d-2c1045093d59",
+      "876ad063-5cb2-4aef-b830-0a049b2e6e8b",
+      "77336501-46ab-4973-a079-685f51a4b8b9",
+      "cbca523b-6a7d-4361-a5bd-01092ae07198",
+      "9a18480c-10bd-4da2-8351-0c0938bf5453",
+      "632dc630-0dc7-40fc-b317-b2affdaeb4df"
+    ]
+  }
+}

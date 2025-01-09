@@ -1,0 +1,26 @@
+meta {
+  name: Developer
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:8080/upload/1
+  body: multipartForm
+  auth: none
+}
+
+headers {
+  Authorization: Bearer Developer
+  ~Content-Type: multipart/form-data
+}
+
+body:json {
+  {
+    
+  }
+}
+
+body:multipart-form {
+  file: @file(C:\Users\NestorS\Desktop\file.txt)
+}

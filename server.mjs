@@ -8,11 +8,17 @@ import fileRoutes from './routes/fileRoutes.mjs';  // Beispiel für Datei-Upload
 import authRoutes from './routes/authRoutes.mjs';  // Authentifizierungs-Routen
 import { fileURLToPath } from 'url';  // Import für URL-Handling
 import { dirname, join } from 'path';  // Import für Pfad-Manipulation
+import cors from '@fastify/cors';
 
 const SECRET_KEY = 'dein_geheimer_jwt_schlüssel';  // Geheimer Schlüssel für JWT
 
 const fastify = Fastify({
   logger: true,  // Aktiviert das Logging für Debugging
+});
+
+// 👉 Registriere das CORS-Plugin
+await fastify.register(cors, {
+  origin: true,  // Erlaubt alle Domains
 });
 
 // Hole den aktuellen Dateipfad und den Verzeichnispfad

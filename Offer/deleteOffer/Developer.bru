@@ -1,0 +1,26 @@
+meta {
+  name: Developer
+  type: http
+  seq: 1
+}
+
+delete {
+  url: http://localhost:8080/offers/:id
+  body: json
+  auth: none
+}
+
+params:path {
+  id: 1
+}
+
+headers {
+  Authorization: Bearer Developer
+  Content-Type: application/json
+}
+
+body:json {
+  {
+    
+  }
+}

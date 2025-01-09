@@ -1,0 +1,22 @@
+meta {
+  name: Developer
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:8080/offers/1/comments
+  body: json
+  auth: none
+}
+
+headers {
+  Authorization: Bearer Developer
+  Content-Type: application/json
+}
+
+body:json {
+  {
+    "content": "very good product!"
+  }
+}

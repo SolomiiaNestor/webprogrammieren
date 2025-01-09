@@ -1,0 +1,21 @@
+meta {
+  name: Base64
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:8080/upload/1
+  body: json
+  auth: none
+}
+
+headers {
+  ~Content-Type: multipart/form-data
+}
+
+body:json {
+  {
+    "base64string": "VGhpcyBpcyBhIHRlc3QgZmlsZSBjb250ZW50Lg0K"
+  }
+}

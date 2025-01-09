@@ -1,0 +1,20 @@
+meta {
+  name: Developer
+  type: http
+  seq: 2
+}
+
+get {
+  url: http://localhost:8080/offers/:offerId/files
+  body: none
+  auth: none
+}
+
+params:path {
+  offerId: 1
+}
+
+headers {
+  Authorization: Bearer Developer
+  Content-Type: multipart/form-data
+}

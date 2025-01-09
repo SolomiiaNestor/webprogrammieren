@@ -1,0 +1,21 @@
+meta {
+  name: User
+  type: http
+  seq: 2
+}
+
+get {
+  url: http://localhost:8080/offers/:offerId/comments/:commentId
+  body: none
+  auth: none
+}
+
+params:path {
+  offerId: 1
+  commentId: 2
+}
+
+headers {
+  Authorization: Bearer User
+  Content-Type: application/json
+}

@@ -1,0 +1,24 @@
+meta {
+  name: newCustomer
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:8080/customers
+  body: json
+  auth: none
+}
+
+headers {
+  Authorization: Bearer Developer
+}
+
+body:json {
+    {
+      "firstName": "Jane",
+      "lastName": "Doe",
+      "email": "jane.doe@example.com",
+      "status": "aktive"
+    }
+}

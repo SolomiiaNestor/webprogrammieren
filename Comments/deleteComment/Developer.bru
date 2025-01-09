@@ -1,0 +1,26 @@
+meta {
+  name: Developer
+  type: http
+  seq: 1
+}
+
+delete {
+  url: http://localhost:8080/comments/:commentId
+  body: json
+  auth: none
+}
+
+params:path {
+  commentId: 
+}
+
+headers {
+  Authorization: Bearer Developer
+  Content-Type: application/json
+}
+
+body:json {
+  {
+    
+  }
+}

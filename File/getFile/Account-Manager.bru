@@ -1,0 +1,20 @@
+meta {
+  name: Account-Manager
+  type: http
+  seq: 1
+}
+
+get {
+  url: http://localhost:8080/offers/:offerId/files
+  body: none
+  auth: none
+}
+
+params:path {
+  offerId: 1
+}
+
+headers {
+  Authorization: Bearer Account-Manager
+  Content-Type: multipart/form-data
+}

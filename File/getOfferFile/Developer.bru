@@ -1,0 +1,26 @@
+meta {
+  name: Developer
+  type: http
+  seq: 1
+}
+
+get {
+  url: http://localhost:8080/assets/:fileId.txt
+  body: json
+  auth: none
+}
+
+params:path {
+  fileId.txt: This is a test file content.
+  b84fd81f-185b-4bd4-99f1-0b52b5c0a258.txt
+}
+
+headers {
+  Authorization: Bearer Developer
+}
+
+body:json {
+  {
+    
+  }
+}

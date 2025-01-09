@@ -1,0 +1,27 @@
+meta {
+  name: Account-Manager
+  type: http
+  seq: 3
+}
+
+patch {
+  url: http://localhost:8080/offers/:id/status
+  body: json
+  auth: none
+}
+
+params:path {
+  id: 1
+}
+
+headers {
+  Authorization: Bearer Account-Manager
+  Content-Type: application/json
+}
+
+body:json {
+  {
+    "newStatus": "Ice"
+  }
+  
+}

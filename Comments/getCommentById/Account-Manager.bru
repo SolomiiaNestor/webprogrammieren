@@ -1,0 +1,21 @@
+meta {
+  name: Account-Manager
+  type: http
+  seq: 3
+}
+
+get {
+  url: http://localhost:8080/offers/:offerId/comments/:commentId
+  body: none
+  auth: none
+}
+
+params:path {
+  offerId: 1
+  commentId: 2
+}
+
+headers {
+  Authorization: Bearer Account-Manager
+  Content-Type: application/json
+}

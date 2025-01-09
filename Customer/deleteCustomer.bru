@@ -1,0 +1,19 @@
+meta {
+  name: deleteCustomer
+  type: http
+  seq: 4
+}
+
+delete {
+  url: http://localhost:8080/customers/:id
+  body: none
+  auth: none
+}
+
+params:path {
+  id: 2
+}
+
+headers {
+  Authorization: Bearer Developer
+}

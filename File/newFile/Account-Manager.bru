@@ -1,0 +1,26 @@
+meta {
+  name: Account-Manager
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:8080/upload/3
+  body: multipartForm
+  auth: none
+}
+
+headers {
+  Authorization: Bearer Account-Manager
+  ~Content-Type: multipart/form-data
+}
+
+body:json {
+  {
+    
+  }
+}
+
+body:multipart-form {
+  file: @file(C:\Users\NestorS\Desktop\file.txt)
+}
